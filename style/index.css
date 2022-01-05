@@ -158,7 +158,7 @@ body {
   position: sticky;
   background: #003412;
   z-index: 1;
-  top: 50px;
+  top: 70px;
   left: 0;
   padding: 1rem;
 }
@@ -621,7 +621,7 @@ body {
 
 .instructor_section_container .instructor_section_img_grid .instructor_section_img_container .absolut_cont {
   position: absolute;
-  top: 230px;
+  top: 210px;
   left: 20px;
 }
 
@@ -773,7 +773,8 @@ body {
 }
 
 #footer_MAinContainer .footer_conatiner .footer_contents .footer_Newsletter input {
-  padding: 0.8rem 0.5rem;
+  padding: 0.5rem 0.1rem;
+  width: 70%;
   border: none;
   outline: none;
   border-bottom-left-radius: 5px;

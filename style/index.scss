@@ -47,7 +47,7 @@ body {
   position: sticky;
   background: $nav-bg;
   z-index: 1;
-  top: 50px;
+  top: 70px;
   left: 0;
   padding: 1rem;
   &_container {
@@ -397,7 +397,7 @@ body {
       position: relative;
       .absolut_cont {
         position: absolute;
-        top: 230px;
+        top: 210px;
         left: 20px;
         .btn-inst {
           padding: 0.5rem 1.2rem;
@@ -534,7 +534,8 @@ body {
           padding: 1rem 0;
         }
         input {
-          padding: 0.8rem 0.5rem;
+           padding: 0.5rem 0.1rem;
+           width: 70%;
           border: none;
           outline: none;
           border-bottom-left-radius: 5px;
