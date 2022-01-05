@@ -1,0 +1,560 @@
+@import "variable";
+@import "utility";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  color: $textcolor;
+}
+// top_navbar section
+.top_nav {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  background: $lightbg;
+  &_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .top_nav_content_info {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+    }
+    .top_nav_btn_container {
+      margin-right: 3rem;
+      .top_nav_link {
+        margin-right: 2rem;
+        color: $textcolor;
+      }
+      .top_nav_btn {
+        padding: 0.3rem 1rem;
+      }
+    }
+  }
+}
+
+// main navbar section
+.main_nav {
+  position: sticky;
+  background: $nav-bg;
+  z-index: 1;
+  top: 50px;
+  left: 0;
+  padding: 1rem;
+  &_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .main_nav_content_container {
+      justify-content: space-evenly;
+      color: $lightcolor;
+      gap: 2rem;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      flex: 1;
+      .main_nav_content {
+        &:hover {
+          color: green;
+        }
+      }
+    }
+     .harmburger {
+        display: none;
+      }
+    .main_nav_logo {
+      max-width: 10%;
+      flex: 1;
+    }
+  }
+}
+
+// header section
+#unique_section_main_container {
+  background: url("/images/header\ img.jpeg") no-repeat center center/cover;
+  .unique_section_container {
+    .unique_section_container_content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+      .unique_section_content {
+        line-height: 1.2;
+        h1 {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+//  Advancelearning section
+.advance_learning_container {
+  background: $lightbg;
+  .advance_learning_img_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 2rem;
+    .advance_learning_img {
+      max-width: 80%;
+      margin-left: 2rem;
+      border-radius: 50%;
+      filter: blur(1px);
+      -webkit-filter: blur(1px);
+    }
+    .advance_learning_content {
+      line-height: 1.4;
+      .rate_container {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1.9rem;
+        margin-top: 0.5rem;
+        .teacher {
+          padding-right: 1rem;
+        }
+        .Active_courses {
+          border-left: 1px solid $textcolor;
+          border-right: 1px solid $textcolor;
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
+        .Extra_Curriular {
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
+}
+
+// our features
+
+.ourfeature_container {
+  // background-size: cover;
+  width: 100%;
+  height: 100%;
+  background: url("/images/girls\ on\ white.png") no-repeat center center/cover;
+  .text_content_container {
+    height: 100%;
+    width: 100%;
+    height: 100vh;
+    padding: 3rem;
+    top: 0;
+    left: 0;
+    color: white;
+    background: rgba(3, 140, 51, 0.7);
+    z-index: 1;
+    .ourfeature_content_container {
+      text-align: center;
+      h1 {
+        padding-bottom: 1rem;
+        font-size: 2rem;
+        font-weight: normal;
+      }
+    }
+    .ourfeature_gridcontainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 3rem;
+      gap: 1rem;
+      .awsometeacher {
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        color: $textcolor;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        .dotted_border {
+          img {
+            max-width: 200px;
+          }
+        }
+        .awsometeacher_content {
+          flex: 1;
+        }
+      }
+      .GlobalRecognition {
+        @extend .awsometeacher;
+        .GlobalRecognition_content {
+          @extend .awsometeacher_content;
+        }
+      }
+      .Extra_curricular_activities {
+        @extend .awsometeacher;
+        .Extra_activities_content {
+          @extend .awsometeacher_content;
+        }
+      }
+      .GovernmentApproved {
+        @extend .awsometeacher;
+        .Government-Approved_content {
+          @extend .awsometeacher_content;
+        }
+      }
+    }
+  }
+}
+
+// learning exprience
+.learning_exprience_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background: $lightbg;
+  .learning_exprience_img_container {
+    flex: 1;
+    img {
+      margin-left: 3rem;
+      max-width: 100%;
+      overflow: hidden;
+    }
+  }
+  .learning_exprience_content_container {
+    line-height: 1.2;
+    flex: 1;
+    padding-left: 10rem;
+    h1 {
+      padding-bottom: 0.7rem;
+    }
+    p {
+      padding-bottom: 0.7rem;
+      line-height: 1.5;
+    }
+    ul {
+      padding-bottom: 1rem;
+      li {
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+// popular section
+.popular_class_container {
+  background: $popularbg;
+  padding: 3rem;
+  .popular_btn_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .btn-space {
+      margin-top: 2rem;
+    }
+  }
+  .popular_class_grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    .popular_class_grid_content {
+      background: $lightcolor;
+      text-align: center;
+      border-radius: 5px;
+
+      img {
+        max-width: 50%;
+        text-align: center;
+        padding-top: 2rem;
+      }
+      .date_time {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: $date;
+        font-size: 14px;
+      }
+      .Light-white {
+        color: $date;
+        line-height: 1.4;
+      }
+      .enroll_now {
+        border-top: 1px solid $textcolor;
+        border-bottom: 4px solid $textcolor;
+        padding: 1rem;
+        &:hover {
+          background: $textcolor;
+          color: $lightcolor;
+          transition: 0.3s ease-in;
+        }
+      }
+    }
+  }
+}
+
+//Find Out How We Help Students section
+.we_help_student_container {
+  background: $lightbg;
+  padding: 4rem;
+  .we_help_student_content {
+    p {
+      color: $date;
+    }
+  }
+  .we_help_student_img_container {
+    background: url("/images/we\ help.jpeg") no-repeat center center/cover;
+    .text_content_container {
+      height: 100%;
+      width: 100%;
+      height: 75vh;
+      padding: 3rem;
+      top: 0;
+      left: 0;
+      color: white;
+      background: rgba(3, 140, 51, 0.5);
+      z-index: 1;
+      .playicon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 8rem;
+      }
+    }
+  }
+}
+
+// Sucess Stories
+.success_story_container {
+  background: url(/images/success.jpeg) no-repeat center center/cover;
+  .success_story_content {
+    height: 90vh;
+    padding: 3rem;
+    h1 {
+      color: $success;
+      font-size: 40px;
+      padding: 1rem;
+    }
+    p {
+      color: $success_text;
+      margin-top: 2rem;
+      font-style: italic;
+      line-height: 1.6;
+      font-family: Lato;
+      font-size: 18px;
+    }
+    .success_story_img_container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      .reduced_container {
+        img {
+          max-width: 100%;
+          border-radius: 50%;
+        }
+      }
+      .reduced_img_container {
+        border: 2px dashed $lightcolor;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        padding: 0.5rem;
+        margin: 0 1.5rem;
+        .reduced_img {
+          max-width: 100%;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+
+//instructor section
+.instructor_section_container {
+  background: $instructionbg;
+  padding: 4rem;
+  .instructor_section_btn_container {
+    margin-top: 3rem;
+  }
+  .instructor_section_content {
+    h1 {
+      margin-bottom: 1rem;
+    }
+    p {
+      line-height: 1.7;
+      color: $date;
+    }
+  }
+  .instructor_section_img_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    .instructor_section_img_container {
+      position: relative;
+      .absolut_cont {
+        position: absolute;
+        top: 230px;
+        left: 20px;
+        .btn-inst {
+          padding: 0.5rem 1.2rem;
+          border: none;
+          outline: none;
+          background: $btn-grey;
+          color: $textcolor;
+          font-weight: bold;
+          margin-bottom: 1rem;
+          border-radius: 5px;
+        }
+        p {
+          color: $lightcolor;
+          margin-bottom: 0.5rem;
+        }
+        p {
+          @extend p;
+        }
+      }
+    }
+  }
+}
+
+// Contact info
+.contactInfo_container {
+  background: $lightbg;
+  padding: 4rem;
+  height: 90vh;
+  .contactinfo_btn {
+    margin-top: 3rem;
+  }
+  .Form_container {
+    .name_email {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      input {
+        width: 30%;
+        padding: 0.7rem;
+        border-radius: 5px;
+        border: 1px solid $inputborder;
+        color: $inputborder;
+      }
+    }
+    .phone_subject {
+      @extend .name_email;
+      margin: 1rem;
+      .join {
+        width: 31%;
+        padding: 0.7rem;
+      }
+    }
+  }
+  .text-area_container {
+    textarea {
+      border: 1px solid $inputborder;
+      padding: 1rem;
+      font-family: "Lato", sans-serif;
+    }
+  }
+}
+
+// footer
+#footer_MAinContainer {
+  background: $nav-bg;
+  height: 55vh;
+  .footer_conatiner {
+    background: $nav-bg;
+    padding: 4rem;
+    width: 100%;
+    .copyright {
+      border-top: 1px solid $hrcolor;
+      margin-top: 4rem;
+      color: $lightcolor;
+      p {
+        padding-top: 1.5rem;
+      }
+    }
+    .footer_contents {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      color: $footer-color;
+      gap: 2rem;
+      .footer_logo_content {
+        img {
+          max-width: 40%;
+          margin-bottom: 1rem;
+        }
+        p {
+          font-size: 0.8rem;
+        }
+      }
+      .footer_about-us {
+        .about__ {
+          font-weight: normal;
+        }
+        .border_botom_div {
+          border-bottom: 2px solid $lightcolor;
+          width: 20%;
+          padding-top: 0.5rem;
+        }
+        p {
+          padding-top: 1.4rem;
+          font-size: 0.8rem;
+        }
+      }
+      .footer_popular_cont {
+        .about__ {
+          font-weight: normal;
+        }
+        .border_botom_div {
+          border-bottom: 2px solid $lightcolor;
+          width: 20%;
+          padding-top: 0.5rem;
+        }
+        p {
+          padding-top: 1.4rem;
+          font-size: 0.8rem;
+        }
+      }
+      .footer_Newsletter {
+        .about__ {
+          font-weight: normal;
+        }
+        .border_botom_div {
+          border-bottom: 2px solid $lightcolor;
+          width: 20%;
+          padding-top: 0.5rem;
+        }
+        p {
+          font-size: 0.8rem;
+          line-height: 1.4;
+          padding: 1rem 0;
+        }
+        input {
+          padding: 0.8rem 0.5rem;
+          border: none;
+          outline: none;
+          border-bottom-left-radius: 5px;
+          border-top-left-radius: 5px;
+        }
+        .box-mouse {
+          background: $textcolor;
+          padding: 0.79rem 1rem;
+          margin-left: -0.2rem;
+          border-bottom-right-radius: 5px;
+          border-top-right-radius: 5px;
+        }
+        .socials_container {
+          margin-top: 1rem;
+          i {
+            padding-right: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+@import "media";

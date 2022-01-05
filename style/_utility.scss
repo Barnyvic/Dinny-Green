@@ -1,0 +1,73 @@
+.Container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+img {
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+.info {
+  font-weight: bold;
+}
+.btn1 {
+  padding: 0.7rem 2rem;
+}
+.sign-in {
+  color: #7ad420;
+}
+.mr1 {
+  margin: 1rem;
+}
+.sup {
+  font-size: 40px;
+}
+.btn_green {
+  background: $textcolor;
+  color: $lightcolor;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+h2 {
+  font-size: 40px;
+}
+.btn-gray {
+  background: $btn-grey;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: $textcolor;
+  font-weight: bold;
+}
+#text----- {
+  z-index: 1;
+}
+.center__ {
+  text-align: center;
+}
+.m-2 {
+  margin-top: 1rem;
+}
+.h1-edit {
+  font-weight: normal;
+  font-size: 2rem;
+}
+.mr3 {
+  margin: 0.5rem;
+}
+.mr4 {
+  margin-bottom: 3rem;
+}
+.harmburger{
+  background: $nav-bg;
+  border: none;
+  outline: none;
+}

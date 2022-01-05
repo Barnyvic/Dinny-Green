@@ -1,0 +1,276 @@
+// Tablet and smaller
+@media (max-width: 1024px) {
+  .instructor_section_container {
+    .instructor_section_img_grid {
+      .instructor_section_img_container {
+        .absolut_cont {
+          top: 150px;
+        }
+      }
+    }
+  }
+  // Contact info
+  .contactInfo_container {
+    .text-area_container {
+      textarea {
+        width: 60%;
+      }
+    }
+  }
+  // footer
+  #footer_MAinContainer {
+    .footer_conatiner {
+      .footer_contents {
+        .footer_Newsletter {
+          input {
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .main_nav {
+    font-size: 14px;
+    &_container {
+      .main_nav_content_container {
+        display: none;
+      }
+      .harmburger {
+       display: block;
+       margin-left: 19rem;
+        .harm{
+
+        }
+      }
+    }
+  }
+  .advance_learning_container {
+    .advance_learning_img_content {
+      display: block;
+      padding: 4rem;
+      .advance_learning_img {
+        max-width: 60%;
+        text-align: center;
+      }
+    }
+  }
+  .ourfeature_container {
+    .text_content_container {
+      .ourfeature_gridcontainer {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
+  .learning_exprience_container {
+    display: block;
+    .learning_exprience_img_container {
+      img {
+        margin-left: 3rem;
+        padding-top: 2rem;
+        max-width: 70%;
+        overflow: hidden;
+      }
+    }
+  }
+  .popular_class_container {
+    .popular_class_grid_container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .we_help_student_container {
+    .we_help_student_img_container {
+      .text_content_container {
+        .playicon {
+          margin: 16rem;
+        }
+      }
+    }
+  }
+  .success_story_container {
+    .success_story_content {
+      padding: 10rem;
+    }
+  }
+  .instructor_section_container {
+    .instructor_section_img_grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .contactInfo_container {
+    padding: 10rem;
+    .Form_container {
+      .name_email {
+        display: block;
+        input {
+          width: 92%;
+          margin-bottom: 1rem;
+        }
+      }
+      .phone_subject {
+        .join {
+          width: 100%;
+          margin-left: -1rem;
+        }
+      }
+    }
+    .text-area_container {
+      textarea {
+        width: 100%;
+      }
+    }
+  }
+  #footer_MAinContainer {
+    .footer_conatiner {
+      .footer_contents {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .top_nav {
+    display: none;
+  }
+  .main_nav {
+    font-size: 14px;
+    top: 0px;
+    &_container {
+      .main_nav_content_container {
+        display: none;
+      }
+      .harmburger {
+       display: block;
+       margin-left: 6rem;
+      }
+      .main_nav_logo{
+         max-width: 20%;
+      }
+    }
+  }
+  #unique_section_main_container {
+    .unique_section_container {
+      .unique_section_container_content {
+        grid-template-columns: repeat(1, 1fr);
+        .unique_section_content {
+          line-height: 1.2;
+          h1 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  .advance_learning_container {
+    .advance_learning_img_content {
+      padding: 1rem;
+      height: 90vh;
+      .advance_learning_content {
+        h2 {
+          font-size: 20px;
+        }
+        .rate_container {
+          .teacher {
+            .sup {
+              font-size: 16px;
+            }
+            p {
+              font-size: 14px;
+            }
+          }
+          .Active_courses {
+            .sup {
+              font-size: 16px;
+            }
+            p {
+              font-size: 14px;
+            }
+          }
+          .Extra_Curriular {
+            .sup {
+              font-size: 16px;
+            }
+            p {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .ourfeature_container {
+    height: 100vh;
+    .ourfeature_content_container {
+      .feature {
+        font-size: 12rem;
+      }
+      .content {
+        font-size: 0.7rem;
+      }
+    }
+    .ourfeature_gridcontainer {
+      .awsometeacher {
+        display: block;
+        .dotted_border {
+          display: none;
+        }
+        .awsometeacher_content {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+  .learning_exprience_container {
+    .learning_exprience_content_container {
+      display: block;
+      padding-left: 5rem;
+    }
+    .learning_exprience_img_container {
+      display: none;
+    }
+  }
+  .popular_class_container {
+    .popular_class_grid_container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  .we_help_student_container {
+    padding: 2rem;
+    .we_help_student_img_container {
+      display: none;
+    }
+  }
+  .success_story_container {
+    .success_story_content {
+      padding: 1rem;
+      height: 80vh;
+      h1 {
+        font-size: 20px;
+      }
+      .success_story_img_container {
+        justify-content: space-evenly;
+        .reduced_img_container {
+          display: none;
+        }
+      }
+    }
+  }
+  .instructor_section_container {
+    padding: 2rem;
+    .instructor_section_img_grid {
+      display: none;
+    }
+  }
+  .contactInfo_container {
+    padding: 1rem;
+    height: 100vh;
+  }
+  #footer_MAinContainer {
+    .footer_conatiner {
+      .footer_contents {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
+}
