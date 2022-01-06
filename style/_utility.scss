@@ -45,7 +45,6 @@ h2 {
   outline: none;
   border-radius: 5px;
   color: $textcolor;
-  font-weight: bold;
 }
 #text----- {
   z-index: 1;
@@ -66,8 +65,17 @@ h2 {
 .mr4 {
   margin-bottom: 3rem;
 }
-.harmburger{
+.harmburger {
   background: $nav-bg;
   border: none;
   outline: none;
+}
+.about__ {
+  font-weight: normal;
+  font-size: 1rem;
+}
+.border_botom_div {
+  border-bottom: 2px solid $lightcolor;
+  width: 20%;
+  padding-top: 0.2rem;
 }

@@ -68,9 +68,9 @@ body {
         }
       }
     }
-     .harmburger {
-        display: none;
-      }
+    .harmburger {
+      display: none;
+    }
     .main_nav_logo {
       max-width: 10%;
       flex: 1;
@@ -180,11 +180,18 @@ body {
         padding: 1rem;
         .dotted_border {
           img {
-            max-width: 200px;
+            max-width: 90%;
           }
         }
         .awsometeacher_content {
           flex: 1;
+          h4{
+            font-size:1.2rem;
+            font-weight: normal;
+          }
+          p{
+             font-size:0.9rem;
+          }
         }
       }
       .GlobalRecognition {
@@ -275,7 +282,7 @@ body {
       .date_time {
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
+        align-items: flex-start;
         color: $date;
         font-size: 14px;
       }
@@ -286,7 +293,9 @@ body {
       .enroll_now {
         border-top: 1px solid $textcolor;
         border-bottom: 4px solid $textcolor;
-        padding: 1rem;
+        p{
+          padding-top: 0.7rem;
+        }
         &:hover {
           background: $textcolor;
           color: $lightcolor;
@@ -492,50 +501,26 @@ body {
         }
       }
       .footer_about-us {
-        .about__ {
-          font-weight: normal;
-        }
-        .border_botom_div {
-          border-bottom: 2px solid $lightcolor;
-          width: 20%;
-          padding-top: 0.5rem;
-        }
         p {
-          padding-top: 1.4rem;
+          padding-top: 0.5rem;
           font-size: 0.8rem;
         }
       }
       .footer_popular_cont {
-        .about__ {
-          font-weight: normal;
-        }
-        .border_botom_div {
-          border-bottom: 2px solid $lightcolor;
-          width: 20%;
-          padding-top: 0.5rem;
-        }
         p {
-          padding-top: 1.4rem;
+          padding-top: 0.5rem;
           font-size: 0.8rem;
         }
       }
       .footer_Newsletter {
-        .about__ {
-          font-weight: normal;
-        }
-        .border_botom_div {
-          border-bottom: 2px solid $lightcolor;
-          width: 20%;
-          padding-top: 0.5rem;
-        }
         p {
           font-size: 0.8rem;
           line-height: 1.4;
-          padding: 1rem 0;
+          padding: 0.7rem 0;
         }
         input {
-           padding: 0.5rem 0.1rem;
-           width: 70%;
+          padding: 0.5rem 0.1rem;
+          width: 70%;
           border: none;
           outline: none;
           border-bottom-left-radius: 5px;

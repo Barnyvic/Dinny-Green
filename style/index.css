@@ -56,7 +56,6 @@ h2 {
   outline: none;
   border-radius: 5px;
   color: #038c33;
-  font-weight: bold;
 }
 
 #text----- {
@@ -88,6 +87,17 @@ h2 {
   background: #003412;
   border: none;
   outline: none;
+}
+
+.about__ {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.border_botom_div {
+  border-bottom: 2px solid #ffffff;
+  width: 20%;
+  padding-top: 0.2rem;
 }
 
 * {
@@ -355,13 +365,22 @@ body {
 }
 
 .ourfeature_container .text_content_container .ourfeature_gridcontainer .awsometeacher .dotted_border img, .ourfeature_container .text_content_container .ourfeature_gridcontainer .GlobalRecognition .dotted_border img, .ourfeature_container .text_content_container .ourfeature_gridcontainer .Extra_curricular_activities .dotted_border img, .ourfeature_container .text_content_container .ourfeature_gridcontainer .GovernmentApproved .dotted_border img {
-  max-width: 200px;
+  max-width: 90%;
 }
 
 .ourfeature_container .text_content_container .ourfeature_gridcontainer .awsometeacher .awsometeacher_content, .ourfeature_container .text_content_container .ourfeature_gridcontainer .GlobalRecognition .awsometeacher_content, .ourfeature_container .text_content_container .ourfeature_gridcontainer .Extra_curricular_activities .awsometeacher_content, .ourfeature_container .text_content_container .ourfeature_gridcontainer .GovernmentApproved .awsometeacher_content, .ourfeature_container .text_content_container .ourfeature_gridcontainer .GlobalRecognition .GlobalRecognition_content, .ourfeature_container .text_content_container .ourfeature_gridcontainer .Extra_curricular_activities .Extra_activities_content, .ourfeature_container .text_content_container .ourfeature_gridcontainer .GovernmentApproved .Government-Approved_content {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+}
+
+.ourfeature_container .text_content_container .ourfeature_gridcontainer .awsometeacher .awsometeacher_content h4, .ourfeature_container .text_content_container .ourfeature_gridcontainer .GlobalRecognition .awsometeacher_content h4, .ourfeature_container .text_content_container .ourfeature_gridcontainer .Extra_curricular_activities .awsometeacher_content h4, .ourfeature_container .text_content_container .ourfeature_gridcontainer .GovernmentApproved .awsometeacher_content h4, .ourfeature_container .text_content_container .ourfeature_gridcontainer .GlobalRecognition .GlobalRecognition_content h4, .ourfeature_container .text_content_container .ourfeature_gridcontainer .Extra_curricular_activities .Extra_activities_content h4, .ourfeature_container .text_content_container .ourfeature_gridcontainer .GovernmentApproved .Government-Approved_content h4 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.ourfeature_container .text_content_container .ourfeature_gridcontainer .awsometeacher .awsometeacher_content p, .ourfeature_container .text_content_container .ourfeature_gridcontainer .GlobalRecognition .awsometeacher_content p, .ourfeature_container .text_content_container .ourfeature_gridcontainer .Extra_curricular_activities .awsometeacher_content p, .ourfeature_container .text_content_container .ourfeature_gridcontainer .GovernmentApproved .awsometeacher_content p, .ourfeature_container .text_content_container .ourfeature_gridcontainer .GlobalRecognition .GlobalRecognition_content p, .ourfeature_container .text_content_container .ourfeature_gridcontainer .Extra_curricular_activities .Extra_activities_content p, .ourfeature_container .text_content_container .ourfeature_gridcontainer .GovernmentApproved .Government-Approved_content p {
+  font-size: 0.9rem;
 }
 
 .learning_exprience_container {
@@ -471,9 +490,9 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   color: #6c757d;
   font-size: 14px;
 }
@@ -486,7 +505,10 @@ body {
 .popular_class_container .popular_class_grid_container .popular_class_grid_content .enroll_now {
   border-top: 1px solid #038c33;
   border-bottom: 4px solid #038c33;
-  padding: 1rem;
+}
+
+.popular_class_container .popular_class_grid_container .popular_class_grid_content .enroll_now p {
+  padding-top: 0.7rem;
 }
 
 .popular_class_container .popular_class_grid_container .popular_class_grid_content .enroll_now:hover {
@@ -726,50 +748,20 @@ body {
   font-size: 0.8rem;
 }
 
-#footer_MAinContainer .footer_conatiner .footer_contents .footer_about-us .about__ {
-  font-weight: normal;
-}
-
-#footer_MAinContainer .footer_conatiner .footer_contents .footer_about-us .border_botom_div {
-  border-bottom: 2px solid #ffffff;
-  width: 20%;
-  padding-top: 0.5rem;
-}
-
 #footer_MAinContainer .footer_conatiner .footer_contents .footer_about-us p {
-  padding-top: 1.4rem;
-  font-size: 0.8rem;
-}
-
-#footer_MAinContainer .footer_conatiner .footer_contents .footer_popular_cont .about__ {
-  font-weight: normal;
-}
-
-#footer_MAinContainer .footer_conatiner .footer_contents .footer_popular_cont .border_botom_div {
-  border-bottom: 2px solid #ffffff;
-  width: 20%;
   padding-top: 0.5rem;
+  font-size: 0.8rem;
 }
 
 #footer_MAinContainer .footer_conatiner .footer_contents .footer_popular_cont p {
-  padding-top: 1.4rem;
-  font-size: 0.8rem;
-}
-
-#footer_MAinContainer .footer_conatiner .footer_contents .footer_Newsletter .about__ {
-  font-weight: normal;
-}
-
-#footer_MAinContainer .footer_conatiner .footer_contents .footer_Newsletter .border_botom_div {
-  border-bottom: 2px solid #ffffff;
-  width: 20%;
   padding-top: 0.5rem;
+  font-size: 0.8rem;
 }
 
 #footer_MAinContainer .footer_conatiner .footer_contents .footer_Newsletter p {
   font-size: 0.8rem;
   line-height: 1.4;
-  padding: 1rem 0;
+  padding: 0.7rem 0;
 }
 
 #footer_MAinContainer .footer_conatiner .footer_contents .footer_Newsletter input {
