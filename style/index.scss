@@ -247,6 +247,7 @@ body {
       padding-bottom: 1rem;
       li {
         line-height: 1.5;
+         margin-left: -2rem;
       }
     }
   }
@@ -266,6 +267,7 @@ body {
     }
   }
   .popular_class_grid_container {
+     margin: 2.2rem 0rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;

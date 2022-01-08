@@ -436,6 +436,7 @@ body {
 
 .learning_exprience_container .learning_exprience_content_container ul li {
   line-height: 1.5;
+  margin-left: -2rem;
 }
 
 .popular_class_container {
@@ -464,6 +465,7 @@ body {
 }
 
 .popular_class_container .popular_class_grid_container {
+  margin: 2.2rem 0rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
