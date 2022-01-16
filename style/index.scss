@@ -72,7 +72,7 @@ body {
       display: none;
     }
     .main_nav_logo {
-      max-width: 10%;
+      max-width: 9%;
       flex: 1;
     }
   }
@@ -82,11 +82,11 @@ body {
 #unique_section_main_container {
   background: url("/images/header\ img.jpeg") no-repeat center center/cover;
   position: relative;
-  .unique_section_main_absolute{
-    img{
+  .unique_section_main_absolute {
+    img {
       position: absolute;
-      top:490px;
-      left: 0px;
+      top: 89%;
+      left: 0%;
     }
   }
   .unique_section_container {
@@ -108,14 +108,14 @@ body {
 //  Advancelearning section
 .advance_learning_container {
   background: $lightbg;
-  .advance_absulote_container{
-      position: relative;
-    img{
+  .advance_absulote_container {
+    position: relative;
+    img {
       max-width: 10%;
-       position: absolute;
-       top: 150px;
-       left: 1158px;
-       overflow: hidden;
+      position: absolute;
+      top: 150px;
+      left: 90%;
+      overflow: hidden;
     }
   }
   .advance_learning_img_content {
@@ -175,7 +175,7 @@ body {
     z-index: 1;
     .ourfeature_content_container {
       text-align: center;
-       padding-top: 2rem;
+      padding-top: 2rem;
       h1 {
         padding-bottom: 1rem;
         font-size: 2rem;
@@ -204,12 +204,12 @@ body {
         }
         .awsometeacher_content {
           flex: 1;
-          h4{
-            font-size:1.2rem;
+          h4 {
+            font-size: 1.2rem;
             font-weight: normal;
           }
-          p{
-             font-size:0.9rem;
+          p {
+            font-size: 0.9rem;
           }
         }
       }
@@ -266,7 +266,7 @@ body {
       padding-bottom: 1rem;
       li {
         line-height: 1.5;
-         margin-left: -2rem;
+        margin-left: -2rem;
       }
     }
   }
@@ -286,7 +286,7 @@ body {
     }
   }
   .popular_class_grid_container {
-     margin: 2.2rem 0rem;
+    margin: 2.2rem 0rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -314,7 +314,7 @@ body {
       .enroll_now {
         border-top: 1px solid $textcolor;
         border-bottom: 4px solid $textcolor;
-        p{
+        p {
           padding-top: 0.7rem;
         }
         &:hover {
@@ -391,44 +391,86 @@ body {
 .instructor_section_container {
   background: $instructionbg;
   padding: 4rem;
-  .instructor_section_btn_container {
-    margin-top: 3rem;
-  }
-  .instructor_section_content {
-    h1 {
-      margin-bottom: 1rem;
+  .insttruction_section_headings {
+    h2 {
+      font-weight: normal;
+      font-size: 2.1rem;
     }
     p {
-      line-height: 1.7;
       color: $date;
     }
   }
-  .instructor_section_img_grid {
+  .instruction_section_btn_container {
+    .btn_int {
+      background-color: $textcolor;
+      color: $lightcolor;
+      padding: 0.4rem 1.7rem;
+      font-size: 0.9rem;
+    }
+  }
+  .instruction_section_grid_content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    .instructor_section_img_container {
+    gap: 1.5rem;
+    .woman_with_hair_img {
+      background: url("/images/woman\ with\ long\ hair.jpeg") no-repeat center
+        center/cover;
+      height: 55vh;
+      border-radius: 5px;
       position: relative;
-      .absolut_cont {
+      box-shadow: -0px -30px 70px 0px $textcolor inset;
+      .asolute_container_woman {
         position: absolute;
-        top: 210px;
-        left: 20px;
-        .btn-inst {
-          padding: 0.5rem 1.2rem;
-          border: none;
-          outline: none;
+        top: 65%;
+        left: 10%;
+        .btn_light_lemon {
           background: $btn-grey;
-          color: $textcolor;
           font-weight: bold;
-          margin-bottom: 1rem;
-          border-radius: 5px;
+          color: $textcolor;
         }
         p {
           color: $lightcolor;
-          margin-bottom: 0.5rem;
+        }
+      }
+    }
+    .man_on_red_shirt_img {
+      background: url("/images/man\ on\ sweart\ shirt.jpeg") no-repeat center
+        center/cover;
+      height: 55vh;
+      border-radius: 5px;
+      box-shadow: -0px -30px 70px 0px $textcolor inset;
+      position: relative;
+      .asolute_container_woman {
+        position: absolute;
+        top: 65%;
+        left: 10%;
+        .btn_light_lemon {
+          background: $btn-grey;
+          font-weight: bold;
+          color: $textcolor;
         }
         p {
-          @extend p;
+          color: $lightcolor;
+        }
+      }
+    }
+    .red_cloud_img {
+      background: url("/images/red\ cloud.jpeg") no-repeat center center/cover;
+      height: 55vh;
+      position: relative;
+      border-radius: 5px;
+      box-shadow: -0px -30px 70px 0px $textcolor inset;
+      .asolute_container_woman {
+        position: absolute;
+        top: 65%;
+        left: 10%;
+        .btn_light_lemon {
+          background: $btn-grey;
+          font-weight: bold;
+          color: $textcolor;
+        }
+        p {
+          color: $lightcolor;
         }
       }
     }
