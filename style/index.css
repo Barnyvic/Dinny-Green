@@ -216,7 +216,7 @@ body {
 }
 
 .main_nav_container .main_nav_logo {
-  max-width: 10%;
+  max-width: 9%;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -229,8 +229,8 @@ body {
 
 #unique_section_main_container .unique_section_main_absolute img {
   position: absolute;
-  top: 490px;
-  left: 0px;
+  top: 89%;
+  left: 0%;
 }
 
 #unique_section_main_container .unique_section_container .unique_section_container_content {
@@ -267,7 +267,7 @@ body {
   max-width: 10%;
   position: absolute;
   top: 150px;
-  left: 1158px;
+  left: 90%;
   overflow: hidden;
 }
 
@@ -445,7 +445,7 @@ body {
   padding-bottom: 0.7rem;
 }
 
-.learning_exprience_container .learning_exprience_content_container p, .learning_exprience_container .learning_exprience_content_container .instructor_section_container .instructor_section_img_grid .instructor_section_img_container .absolut_cont p, .instructor_section_container .instructor_section_img_grid .instructor_section_img_container .absolut_cont .learning_exprience_container .learning_exprience_content_container p {
+.learning_exprience_container .learning_exprience_content_container p {
   padding-bottom: 0.7rem;
   line-height: 1.5;
 }
@@ -545,7 +545,7 @@ body {
   padding: 4rem;
 }
 
-.we_help_student_container .we_help_student_content p, .we_help_student_container .we_help_student_content .instructor_section_container .instructor_section_img_grid .instructor_section_img_container .absolut_cont p, .instructor_section_container .instructor_section_img_grid .instructor_section_img_container .absolut_cont .we_help_student_container .we_help_student_content p {
+.we_help_student_container .we_help_student_content p {
   color: #6c757d;
 }
 
@@ -569,7 +569,7 @@ body {
   padding: 1rem;
 }
 
-.success_story_container .success_story_content p, .success_story_container .success_story_content .instructor_section_container .instructor_section_img_grid .instructor_section_img_container .absolut_cont p, .instructor_section_container .instructor_section_img_grid .instructor_section_img_container .absolut_cont .success_story_container .success_story_content p {
+.success_story_container .success_story_content p {
   color: #003412;
   margin-top: 2rem;
   font-style: italic;
@@ -614,51 +614,103 @@ body {
   padding: 4rem;
 }
 
-.instructor_section_container .instructor_section_btn_container {
-  margin-top: 3rem;
+.instructor_section_container .insttruction_section_headings h2 {
+  font-weight: normal;
+  font-size: 2.1rem;
 }
 
-.instructor_section_container .instructor_section_content h1 {
-  margin-bottom: 1rem;
-}
-
-.instructor_section_container .instructor_section_content p, .instructor_section_container .instructor_section_content .instructor_section_img_grid .instructor_section_img_container .absolut_cont p, .instructor_section_container .instructor_section_img_grid .instructor_section_img_container .absolut_cont .instructor_section_content p {
-  line-height: 1.7;
+.instructor_section_container .insttruction_section_headings p {
   color: #6c757d;
 }
 
-.instructor_section_container .instructor_section_img_grid {
+.instructor_section_container .instruction_section_btn_container .btn_int {
+  background-color: #038c33;
+  color: #ffffff;
+  padding: 0.4rem 1.7rem;
+  font-size: 0.9rem;
+}
+
+.instructor_section_container .instruction_section_grid_content {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
-.instructor_section_container .instructor_section_img_grid .instructor_section_img_container {
+.instructor_section_container .instruction_section_grid_content .woman_with_hair_img {
+  background: url("/images/woman with long hair.jpeg") no-repeat center center/cover;
+  height: 55vh;
+  border-radius: 5px;
+  position: relative;
+  -webkit-box-shadow: 0px -30px 70px 0px #038c33 inset;
+          box-shadow: 0px -30px 70px 0px #038c33 inset;
+}
+
+.instructor_section_container .instruction_section_grid_content .woman_with_hair_img .asolute_container_woman {
+  position: absolute;
+  top: 65%;
+  left: 10%;
+}
+
+.instructor_section_container .instruction_section_grid_content .woman_with_hair_img .asolute_container_woman .btn_light_lemon {
+  background: #add9bd;
+  font-weight: bold;
+  color: #038c33;
+}
+
+.instructor_section_container .instruction_section_grid_content .woman_with_hair_img .asolute_container_woman p {
+  color: #ffffff;
+}
+
+.instructor_section_container .instruction_section_grid_content .man_on_red_shirt_img {
+  background: url("/images/man on sweart shirt.jpeg") no-repeat center center/cover;
+  height: 55vh;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px -30px 70px 0px #038c33 inset;
+          box-shadow: 0px -30px 70px 0px #038c33 inset;
   position: relative;
 }
 
-.instructor_section_container .instructor_section_img_grid .instructor_section_img_container .absolut_cont {
+.instructor_section_container .instruction_section_grid_content .man_on_red_shirt_img .asolute_container_woman {
   position: absolute;
-  top: 210px;
-  left: 20px;
+  top: 65%;
+  left: 10%;
 }
 
-.instructor_section_container .instructor_section_img_grid .instructor_section_img_container .absolut_cont .btn-inst {
-  padding: 0.5rem 1.2rem;
-  border: none;
-  outline: none;
+.instructor_section_container .instruction_section_grid_content .man_on_red_shirt_img .asolute_container_woman .btn_light_lemon {
   background: #add9bd;
-  color: #038c33;
   font-weight: bold;
-  margin-bottom: 1rem;
-  border-radius: 5px;
+  color: #038c33;
 }
 
-.instructor_section_container .instructor_section_img_grid .instructor_section_img_container .absolut_cont p {
+.instructor_section_container .instruction_section_grid_content .man_on_red_shirt_img .asolute_container_woman p {
   color: #ffffff;
-  margin-bottom: 0.5rem;
+}
+
+.instructor_section_container .instruction_section_grid_content .red_cloud_img {
+  background: url("/images/red cloud.jpeg") no-repeat center center/cover;
+  height: 55vh;
+  position: relative;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px -30px 70px 0px #038c33 inset;
+          box-shadow: 0px -30px 70px 0px #038c33 inset;
+}
+
+.instructor_section_container .instruction_section_grid_content .red_cloud_img .asolute_container_woman {
+  position: absolute;
+  top: 65%;
+  left: 10%;
+}
+
+.instructor_section_container .instruction_section_grid_content .red_cloud_img .asolute_container_woman .btn_light_lemon {
+  background: #add9bd;
+  font-weight: bold;
+  color: #038c33;
+}
+
+.instructor_section_container .instruction_section_grid_content .red_cloud_img .asolute_container_woman p {
+  color: #ffffff;
 }
 
 .contactInfo_container {
